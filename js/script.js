@@ -19,15 +19,15 @@ if (navigator.serviceWorker) {
  * This function displays an alert.
  */
 function enterClicked() {
-//input
-const aBase = parseInt(document.getElementById("base-a").value)
-const bBase = paresInt(document.getElementById("base-b").value)
-const height = paresInt(document.getElementById("Height").value)
+  //input
+  const aBase = parseInt(document.getElementById("base-a").value)
+  const bBase = paresInt(document.getElementById("base-b").value)
+  const height = paresInt(document.getElementById("Height").value)
 
-//process
-const area = ((aBase + bBase) / 2) * height
+  //process
+  const area = ((aBase + bBase) / 2) * height
 
-//output
-document.getElementById("area-of-trapezoid").innerHTML = 
-"The are of the trapezoid is: " + area.toFixed(2) + "cm²"
+  //output
+  document.getElementById("area-of-trapezoid").innerHTML =
+    "The are of the trapezoid is: " + area.toFixed(2) + "cm²"
 }
