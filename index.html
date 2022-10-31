@@ -75,16 +75,45 @@
           mm
         </form>
         <p></p>
+        <form action="#">
+          B Base: 
+          <div class="mdl-textfield mdl-js-textfield">
+            <input 
+            class="mdl-textfield__input"
+            type="text"
+            pattern="-?[0-9]*(\.[0-9]+)?"
+            id="base-b"
+            aria-label="B Base"
+            />
+            <span class="mdl-textfield__error">Input is not a number!</span>
+            </div>
+            mm
+        </form>
+        <p></p>
+        <form action="#">
+          Height: 
+          <div class="mdl-textfield mdl-js-textfield">
+            <input 
+            class="mdl-textfield__input"
+            type="text"
+            pattern="-?[0-9]*(\.[0-9]+)?"
+            id="height"
+            aria-label="Height"
+            />
+            <span class="mdl-textfield__error">Input is not a number!</span>
+            </div>
+            mm
+        </form>
         <!-- Raised button with ripple -->
         <button
           class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
           onclick="myButtonClicked()"
         >
-          Say "Hello, World!"
+          Give Area Trapezoid
         </button>
         <!-- basic text -->
         <p></p>
-        <div id="hello-world"></div>
+        <div id="area-of-trapezoid"></div>
       </main>
     </div>
   </body>
